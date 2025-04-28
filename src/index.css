@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+input[type="range"] {
+  @apply h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  @apply w-4 h-4 bg-indigo-600 rounded-full appearance-none cursor-pointer hover:bg-indigo-700 dark:bg-indigo-500 dark:hover:bg-indigo-400;
+}
+
+.ReactCrop__crop-selection {
+  @apply border-2 border-indigo-500;
+}
