@@ -1,4 +1,4 @@
-
+# Image Processing Application
 
 A powerful image processing application built with Chef using Convex as its backend.
 
