@@ -4,7 +4,6 @@ A powerful image processing application built with Chef using Convex as its back
 
 ## Overview
 
-This project provides a robust platform for image processing tasks, leveraging modern web technologies for a seamless user experience. The application is connected to the Convex deployment named `fleet-blackbird-358`.
 
 ## Project Structure
 
